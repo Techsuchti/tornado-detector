@@ -1,0 +1,42 @@
+# Composer
+composer.phar
+/vendor/
+
+# Commit your application's lock file https://getcomposer.org/doc/01-basic-usage.md#commit-your-composer-lock-file-to-version-control
+# You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
+# composer.lock
+
+# PHP
+*.log
+*.cache
+tmp/
+temp/
+
+# SQLite Datenbanken (außer Beispieldatei)
+*.db
+*.sqlite
+*.sqlite3
+!db/tornado.sqlite
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Config-Dateien mit sensiblen Daten
+config/database.php
+config/api_keys.php
+.env
+.env.local
